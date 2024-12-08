@@ -1,0 +1,604 @@
+.topbar {
+    color: rgb(50, 7, 206);
+    font-family: "Noto Sans Hebrew", serif;
+}
+
+.title {
+    position: fixed;
+    top: -30px;
+    right: 8px;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    z-index: 5;
+}
+
+a {
+    color: rgb(50, 7, 206);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(50, 7, 206);
+    text-decoration: none;
+}
+
+.toplabels {
+
+    margin-left: 40px;
+    font-weight: 800;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+
+.toplabels:hover {
+    color: rgb(38, 5, 109);
+}
+
+.toplabelsdiv {
+    z-index: 5;
+    position: fixed;
+    top: 22px;
+    right: 150px;
+}
+
+.padlet {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    height: 180%;
+    z-index: 0;
+}
+
+.topbarbackground {
+    content: "";
+    position: fixed;
+    opacity: 1;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to left, rgba(106, 140, 252, 0.74), rgb(59, 70, 160));
+    cursor: default;
+    backdrop-filter: blur(3px);
+}
+
+.newsp {
+    position: absolute;
+    top: 85px;
+    right: 27px;
+    text-align: center;
+    font-family: "Noto Sans Hebrew", serif;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+}
+
+.segelp {
+    position: absolute;
+    top: 85px;
+    right: 13%;
+    width: 74%;
+    text-align: center;
+    font-family: "Noto Sans Hebrew", serif;
+    font-size: 2em;
+    color: rgb(250, 235, 215);
+}
+
+.indexp {
+    position: absolute;
+    top: 180px;
+    width: 64%;
+    right: 20px;
+    text-align: right;
+    font-size: 2em;
+    font-family: "Noto Sans Hebrew", serif;
+    line-height: 1.9em;
+    color: rgb(250, 235, 215);
+}
+
+.improvebodybackground {
+    z-index: -2;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #faf295;
+}
+
+.newsbodybackground {
+    z-index: -2;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #015858;
+}
+
+.segelbodybackground {
+    z-index: -2;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400%;
+    background: #015858;
+}
+
+.indexbodybackground {
+    z-index: -2;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400%;
+    background: #015858;
+}
+
+.glitchoutgif {
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.newstext {
+    font-family: "Noto Sans Hebrew", serif;
+    color: rgb(240, 248, 255);
+    font-size: 3em;
+
+
+}
+
+.newstextdiv {
+    position: fixed;
+    top: -40px;
+    right: 5px;
+    display: flex;
+    transform: rotate(0deg);
+}
+
+.red {
+    color: rgb(142, 1, 1);
+    margin-right: 12px;
+    transform: rotate(0deg);
+}
+
+.black {
+    color: black;
+    margin-right: 12px;
+}
+
+.notready {
+    display: none;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    font-family: "Noto Sans Hebrew", serif;
+    font-size: 2em;
+    color: black;
+}
+
+.redandblackinfo {
+    font-family: "Noto Sans Hebrew", serif;
+    font-size: 2.1em;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    color: rgb(240, 248, 255);
+}
+
+.newsredcomputer {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 726px;
+    top: 170px;
+}
+
+.newswhitecomputer {
+
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 726px;
+    top: 280px;
+}
+
+.newsleftarrow {
+    width: 200px;
+    height: 130px;
+    position: fixed;
+    right: 727px;
+    top: 190px;
+    width: 240px;
+    height: 160px;
+    transform: rotate(180deg);
+}
+
+.newsrightarrow {
+    position: fixed;
+    top: 185px;
+    right: 585px;
+    width: 240px;
+    height: 160px;
+}
+
+.redandwhitetext {
+    text-align: right;
+    line-height: 1.5em;
+}
+
+.topgiltchedcomp {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 726px;
+    top: 170px;
+}
+
+.botgiltchedcomp {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 726px;
+    top: 280px;
+}
+
+.redtext {
+    transform: rotate(5deg);
+}
+
+.topglitch {
+    position: fixed;
+    width: 73px;
+    height: 53px;
+    right: 740px;
+    z-index: -1;
+    top: 297px;
+}
+
+.botglitch {
+    position: fixed;
+    width: 73px;
+    height: 53px;
+    right: 740px;
+    z-index: -1;
+    top: 189px;
+}
+
+.darklogo {
+    z-index: 5;
+    position: fixed;
+    top: -30px;
+    right: 8px;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+
+.segeliframe {
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    height: 100%;
+}
+
+.attendance-icon {
+    position: absolute;
+    top: 290px;
+    right: 220px;
+    width: 200px;
+    height: 200px;
+}
+
+.attendance-words {
+    position: absolute;
+    top: 450px;
+    right: 190px;
+    width: 400px;
+    height: 200px;
+}
+
+.evaluation-icon {
+    position: absolute;
+    top: 275px;
+    right: 520px;
+    width: 200px;
+    height: 200px;
+}
+
+.evaluation-words {
+    position: absolute;
+    top: 360px;
+    right: 360px;
+    width: 540px;
+    height: 280px;
+}
+
+.task-icon {
+    position: absolute;
+    top: 210px;
+    left: -20px;
+    width: 680px;
+    height: 320px;
+}
+
+.task-words {
+    position: absolute;
+    top: 375px;
+    left: -130px;
+    width: 900px;
+    height: 450px;
+}
+
+.test-icon {
+    position: absolute;
+    top: 610px;
+    left: 0px;
+    width: 680px;
+    height: 320px;
+}
+
+.test-words {
+    position: absolute;
+    top: 610px;
+    left: -115px;
+    width: 900px;
+    height: 450px;
+}
+
+.branching-icon {
+    position: absolute;
+    top: 570px;
+    right: 30px;
+    width: 600px;
+    height: 300px;
+}
+
+.branching-words {
+    position: absolute;
+    top: 670px;
+    right: 0px;
+    width: 660px;
+    height: 330px;
+}
+
+.report-icon {
+    position: absolute;
+    top: 532px;
+    right: 230px;
+    width: 800px;
+    height: 400px;
+}
+
+.report-words {
+    position: absolute;
+    top: 655px;
+    right: 215px;
+    width: 840px;
+    height: 420px;
+}
+
+.evaluationbsq {
+    position: absolute;
+    top: 275px;
+    right: 520px;
+    z-index: 3;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.attendancebsq {
+    position: absolute;
+    top: 290px;
+    right: 220px;
+    width: 200px;
+    height: 300px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.taskbsq {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 275px;
+    left: 220px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.branchingbsq {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 600px;
+    right: 220px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.reportbsq {
+    position: absolute;
+    top: 600px;
+    right: 520px;
+    width: 200px;
+    height: 300px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.testbsq {
+    position: absolute;
+    width: 215px;
+    height: 310px;
+    top: 600px;
+    left: 240px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.videosiframe {
+    position: absolute;
+    width: 65%;
+    height: 450px;
+    top: 1050px;
+    left: 17.5%;
+    display: none;
+}
+
+.testreport {
+    display: none;
+    position: absolute;
+    top: 1000px;
+    right: 33.5%;
+    width: 9.5%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(250, 235, 215);
+    color: brown;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-family: "Noto Sans Hebrew", serif;
+}
+
+.testreport:hover {
+    background: rgb(150, 140, 125) !important;
+    color: rgb(51, 12, 12);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.branchingreport {
+    display: none;
+    position: absolute;
+    top: 1000px;
+    left: 33.5%;
+    width: 9.5%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(250, 235, 215);
+    color: brown;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-family: "Noto Sans Hebrew", serif;
+}
+
+.branchingreport:hover {
+    background: rgb(150, 140, 125) !important;
+    color: rgb(51, 12, 12);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.evaluationreport {
+    display: none;
+    position: absolute;
+    top: 1000px;
+    right: 45%;
+    width: 10%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(250, 235, 215);
+    color: brown;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-family: "Noto Sans Hebrew", serif;
+}
+
+.evaluationreport:hover {
+    background: rgb(150, 140, 125) !important;
+    color: rgb(51, 12, 12);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.exclamationindex1 {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 110px;
+    left: 270px;
+}
+
+.exclamationindex2 {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 110px;
+    left: 245px;
+}
+
+.exclamationindex3 {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 110px;
+    left: 220px;
+}
+
+.indextitle {
+    position: absolute;
+    top: 100px;
+    width: 40%;
+    right: 30%;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Noto Sans Hebrew", serif;
+    line-height: 1.9em;
+    color: rgb(255, 255, 0);
+}
+
+.indexev {
+    height: auto;
+    width: 16%;
+    position: absolute;
+    top: 200px;
+    left: 4%;
+    transform: rotate(13deg);
+}
+
+.indexat {
+    height: auto;
+    width: 16%;
+    position: absolute;
+    top: 360px;
+    left: 18%;
+    transform: rotate(-8deg);
+}
+.segelgridbox {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 45% 45% 45%;
+}

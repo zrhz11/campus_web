@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link href="styleweb.css" rel="stylesheet">
+    <title>קמפוס 101</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbarbackground" id="topbarbackground"></div>
+        <div class="segelbodybackground" id="segel"></div>
+        <a href="index.html">
+        <img src="images/קמפוס-removebg-preview.png" class="title">
+        </a>
+        <div class="toplabelsdiv">
+        <a href="index.html">
+        <label class="toplabels" id="page1"></label>
+        </a> <a href="segel.html">
+        <label class="toplabels" id="page2"></label>
+        </a><a href="news.html">
+        <label class="toplabels" id="page3"></label></a>
+        <a href="improve.html">
+            <label class="toplabels" id="page4"></label></a>
+    </div>
+    </div>
+
+    <div class="segeltextdiv">
+<p class="segelp">
+לסגל יש תפקיד חשוב ביותר בתפקוד קורסי הקמפוס
+פה תוכלו ללמוד את כל הכלים הדרושים לביצוע משימתכם בתור סגל
+לחצו על הכלי אותו תרצו ללמוד
+</p>
+</div>
+<div class="segelgridbox">
+<a onclick="attendance()">
+    <img src="images/blacksquare.png" class="attendancebsq">
+</a>
+<img src="images/attendance-icon.png" class="attendance-icon">
+<img src="images/נוכחות.png" class="attendance-words">
+
+<a onclick="evaluation()">
+    <img src="images/blacksquare.png" class="evaluationbsq">
+</a>
+    <img src="images/evaluation-icon.png" class="evaluation-icon">
+    <img src="images/טופס הערכה.png" class="evaluation-words">
+
+<a onclick="task()">
+    <img src="images/blacksquare.png" class="taskbsq">
+</a>
+        <img src="images/task-icon.png" class="task-icon">
+        <img src="images/מטלה.png" class="task-words">
+
+<a onclick="test()">
+    <img src="images/blacksquare.png" class="testbsq">
+</a>
+<img src="images/test-icon.png" class="test-icon">
+<img src="images/מבחן.png" class="test-words">
+
+<a onclick="branching()">
+    <img src="images/blacksquare.png" class="branchingbsq">
+</a>
+<img src="images/branching-icon.png" class="branching-icon">
+<img src="images/עץ הערכה.png" class="branching-words">
+
+<a onclick="testreport()">
+    <img src="images/blacksquare.png" class="reportbsq">
+</a>
+<img src="images/reports-icon.png" class="report-icon">
+<img src="images/דוחות.png" class="report-words">
+</div>
+<!--buttons for reports-->
+<button onclick="testreport()" class="testreport" id="testreport">
+    דוח תוצאות מבחן
+</button>
+<button onclick="branchingreport()" class="branchingreport" id="branchingreport">
+    דוח עץ הערכה
+</button>
+<button onclick="evaluationreport()" class="evaluationreport" id="evaluationreport">
+    דוח טופס הערכה
+</button>
+<iframe id="segeliframe" class="videosiframe" frameborder="0"
+allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<script src="scriptweb.js"></script>
+</body>
+</html>
